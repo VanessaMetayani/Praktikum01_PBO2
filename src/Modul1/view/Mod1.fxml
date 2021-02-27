@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="617.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Modul1.controller.Mod1">
+   <children>
+      <Label layoutX="109.0" layoutY="31.0" text="User" />
+      <Label layoutX="447.0" layoutY="31.0" text="CPU" />
+      <ImageView fx:id="userpic" fitHeight="199.0" fitWidth="224.0" layoutX="23.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="cpupic" fitHeight="199.0" fitWidth="224.0" layoutX="340.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="230.0" layoutX="14.0" layoutY="72.0" stroke="BLACK" strokeType="INSIDE" width="265.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="230.0" layoutX="321.0" layoutY="72.0" stroke="BLACK" strokeType="INSIDE" width="265.0" />
+      <Button layoutX="31.0" layoutY="328.0" mnemonicParsing="false" onAction="#SndPaper" text="Paper" />
+      <Button layoutX="139.0" layoutY="328.0" mnemonicParsing="false" onAction="#SndRock" text="Rock" />
+      <Button layoutX="242.0" layoutY="328.0" mnemonicParsing="false" onAction="#SndSci" text="Scissor" />
+      <Button layoutX="519.0" layoutY="526.0" mnemonicParsing="false" onAction="#exit" text="Exit" />
+      <Label layoutX="29.0" layoutY="403.0" text="Win" />
+      <Label layoutX="27.0" layoutY="458.0" text="Lose" />
+      <Label layoutX="24.0" layoutY="513.0" text="Draw" />
+      <TextField fx:id="txtOutWin" layoutX="88.0" layoutY="397.0" />
+      <TextField fx:id="txtOutLose" layoutX="88.0" layoutY="452.0" />
+      <TextField fx:id="txtOutDraw" layoutX="88.0" layoutY="507.0" />
+      <Label layoutX="24.0" layoutY="576.0" text="Created by 1872044" />
+   </children>
+</AnchorPane>
